@@ -11,8 +11,8 @@
 	<groupId>id.ac.prisma</groupId>
 	<artifactId>siapmobilebackend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>siapmobilebackend</name>
-	<description>project siapmobile backend</description>
+	<name>agalfagaclothingbackend</name>
+	<description>project agalfagaclothing backend</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
