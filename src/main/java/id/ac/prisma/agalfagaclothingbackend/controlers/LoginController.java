@@ -1,6 +1,6 @@
-package id.ac.prisma.siapmobilebackend.controlers;
+package id.ac.prisma.agalfagaclothingbackend.controlers;
 
-import id.ac.prisma.siapmobilebackend.models.LoginRequest;
+import id.ac.prisma.agalfagaclothingbackend.models.LoginRequest;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
@@ -9,13 +9,13 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping(value = {"/login"})
-public class LoginController {
+ public class LoginController {
 
     public String accessToken = "";
 
     /**
      * fungsi untuk menerima data dari aplikasi mobile
-     * untuk kebutuhan login. datanya adalah:
+     * untuk kebutuha  n login. datanya adalah:
      * email dan password
      * setelah terima data tersebur, selanjutnya di validasi apakah email dan password
      * tersebut valid
